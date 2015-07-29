@@ -10,7 +10,7 @@ public class EventsHere {
 public static void getConnection(String name){ 
 
     try {
-    URL url = new URL("http://www.blueberrycupcake.com");
+    URL url = new URL("http://www.blueberrycupcake.com/info/");
     URLConnection conn = url.openConnection();
     conn.setDoOutput(true);
     OutputStreamWriter writer = new OutputStreamWriter(conn.getOutputStream());
